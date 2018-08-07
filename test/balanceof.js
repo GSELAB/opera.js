@@ -10,7 +10,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider(server.provider));
 // body
 var args = process.argv.splice(2);
 if(args.length<1){
-    console.log("please input filename with content of format (address amount [id])");
+    console.log("please input address");
     return;
 }
 
